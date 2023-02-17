@@ -1,0 +1,16 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Test Suite" parallel="methods" thread-count="5">
+  
+
+  <test name="onlinePurchase">
+
+<classes>
+      <class name="onlinePurchase.homePage">
+			
+      </class>
+
+    </classes>
+</test>
+
+</suite>

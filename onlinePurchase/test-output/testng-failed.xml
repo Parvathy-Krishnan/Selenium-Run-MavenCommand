@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Selenium Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="onlinePurchase.homePage">
+        <methods>
+          <include name="placeOrder"/>
+          <include name="verifyPromoCode"/>
+          <include name="multipleLinkInNewTab"/>
+          <include name="closeWindow"/>
+          <include name="searchProduct"/>
+          <include name="applyPromoCode"/>
+          <include name="switchMultipleLinkInNewTab"/>
+          <include name="checkout"/>
+          <include name="verifyProduct"/>
+          <include name="linkInNewTab"/>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- onlinePurchase.homePage -->
+    </classes>
+  </test> <!-- Selenium Test(failed) -->
+</suite> <!-- Failed suite [Selenium Test Suite] -->
